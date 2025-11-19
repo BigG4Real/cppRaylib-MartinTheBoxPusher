@@ -5,7 +5,10 @@
 			"expression" : "C:/cppRaylibTest-main/cppRaylibTest-main/sources/*.cpp",
 			"paths" : 
 			[
-				"C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp"
+				"C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.cpp",
+				"C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.cpp",
+				"C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp",
+				"C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.cpp"
 			],
 			"recurse" : true
 		}

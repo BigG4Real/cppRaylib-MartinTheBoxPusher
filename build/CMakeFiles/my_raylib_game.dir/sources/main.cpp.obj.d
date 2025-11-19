@@ -1,10 +1,47 @@
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/iostream \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.h \
+  C:/cppRaylibTest-main/build/_deps/raylib-src/src/raylib.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/stdarg.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_header_macro.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_list.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_arg.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg___va_copy.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_copy.h \
+  C:/cppRaylibTest-main/build/_deps/raylib-src/src/raymath.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/math.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cmath \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ext/type_traits.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/math.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/vadefs.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/std_abs.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/limits.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/stdlib.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/mm_malloc.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/version.h \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.h \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.h \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.h \
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/iostream \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ostream \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ios \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/iosfwd \
@@ -13,22 +50,13 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/postypes.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cwchar \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/vadefs.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/exception \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/exception.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/version.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/exception_defines.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
@@ -53,7 +81,6 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/clocale \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/locale.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cctype \
@@ -67,8 +94,6 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/process.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/limits.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/limits.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/signal.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/time.h \
@@ -85,7 +110,6 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/new_allocator.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/functexcept.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
@@ -93,7 +117,6 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/debug/assertions.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ext/type_traits.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_function.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/backward/binders.h \
@@ -113,12 +136,6 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_construct.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ext/string_conversions.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cstdlib \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdlib.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/stdlib.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/malloc.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/mm_malloc.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/std_abs.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cstdio \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cerrno \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/charconv.h \
@@ -154,17 +171,4 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/stl_list.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/list.tcc \
-  C:/cppRaylibTest-main/build/_deps/raylib-src/src/raylib.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/stdarg.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdarg.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_header_macro.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg___gnuc_va_list.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_list.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_arg.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg___va_copy.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/__stdarg_va_copy.h \
-  C:/cppRaylibTest-main/build/_deps/raylib-src/src/raymath.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/math.h \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/cmath \
-  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/math.h
+  C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include/c++/14.2.0/bits/list.tcc

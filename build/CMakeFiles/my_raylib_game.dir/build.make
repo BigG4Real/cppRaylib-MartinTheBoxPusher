@@ -71,11 +71,41 @@ include CMakeFiles/my_raylib_game.dir/flags.make
 CMakeFiles/my_raylib_game.dir/codegen:
 .PHONY : CMakeFiles/my_raylib_game.dir/codegen
 
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj: CMakeFiles/my_raylib_game.dir/flags.make
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj: CMakeFiles/my_raylib_game.dir/includes_CXX.rsp
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj: C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.cpp
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj: CMakeFiles/my_raylib_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj -MF CMakeFiles\my_raylib_game.dir\sources\SceneManger.cpp.obj.d -o CMakeFiles\my_raylib_game.dir\sources\SceneManger.cpp.obj -c C:\cppRaylibTest-main\cppRaylibTest-main\sources\SceneManger.cpp
+
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.i"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cppRaylibTest-main\cppRaylibTest-main\sources\SceneManger.cpp > CMakeFiles\my_raylib_game.dir\sources\SceneManger.cpp.i
+
+CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.s"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cppRaylibTest-main\cppRaylibTest-main\sources\SceneManger.cpp -o CMakeFiles\my_raylib_game.dir\sources\SceneManger.cpp.s
+
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj: CMakeFiles/my_raylib_game.dir/flags.make
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj: CMakeFiles/my_raylib_game.dir/includes_CXX.rsp
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj: C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.cpp
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj: CMakeFiles/my_raylib_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj -MF CMakeFiles\my_raylib_game.dir\sources\WallManger.cpp.obj.d -o CMakeFiles\my_raylib_game.dir\sources\WallManger.cpp.obj -c C:\cppRaylibTest-main\cppRaylibTest-main\sources\WallManger.cpp
+
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.i"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cppRaylibTest-main\cppRaylibTest-main\sources\WallManger.cpp > CMakeFiles\my_raylib_game.dir\sources\WallManger.cpp.i
+
+CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.s"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cppRaylibTest-main\cppRaylibTest-main\sources\WallManger.cpp -o CMakeFiles\my_raylib_game.dir\sources\WallManger.cpp.s
+
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: CMakeFiles/my_raylib_game.dir/flags.make
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: CMakeFiles/my_raylib_game.dir/includes_CXX.rsp
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj: CMakeFiles/my_raylib_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj"
 	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj -MF CMakeFiles\my_raylib_game.dir\sources\main.cpp.obj.d -o CMakeFiles\my_raylib_game.dir\sources\main.cpp.obj -c C:\cppRaylibTest-main\cppRaylibTest-main\sources\main.cpp
 
 CMakeFiles/my_raylib_game.dir/sources/main.cpp.i: cmake_force
@@ -86,20 +116,41 @@ CMakeFiles/my_raylib_game.dir/sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_raylib_game.dir/sources/main.cpp.s"
 	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cppRaylibTest-main\cppRaylibTest-main\sources\main.cpp -o CMakeFiles\my_raylib_game.dir\sources\main.cpp.s
 
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj: CMakeFiles/my_raylib_game.dir/flags.make
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj: CMakeFiles/my_raylib_game.dir/includes_CXX.rsp
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj: C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.cpp
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj: CMakeFiles/my_raylib_game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj -MF CMakeFiles\my_raylib_game.dir\sources\martin.cpp.obj.d -o CMakeFiles\my_raylib_game.dir\sources\martin.cpp.obj -c C:\cppRaylibTest-main\cppRaylibTest-main\sources\martin.cpp
+
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_raylib_game.dir/sources/martin.cpp.i"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cppRaylibTest-main\cppRaylibTest-main\sources\martin.cpp > CMakeFiles\my_raylib_game.dir\sources\martin.cpp.i
+
+CMakeFiles/my_raylib_game.dir/sources/martin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_raylib_game.dir/sources/martin.cpp.s"
+	C:\Users\gustav.jonssonjuho\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cppRaylibTest-main\cppRaylibTest-main\sources\martin.cpp -o CMakeFiles\my_raylib_game.dir\sources\martin.cpp.s
+
 # Object files for target my_raylib_game
 my_raylib_game_OBJECTS = \
-"CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj"
+"CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj" \
+"CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj" \
+"CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj" \
+"CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj"
 
 # External object files for target my_raylib_game
 my_raylib_game_EXTERNAL_OBJECTS =
 
+my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj
+my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj
 my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj
+my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj
 my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/build.make
 my_raylib_game.exe: _deps/raylib-build/raylib/libraylib.a
 my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/linkLibs.rsp
 my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/objects1.rsp
 my_raylib_game.exe: CMakeFiles/my_raylib_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_raylib_game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\cppRaylibTest-main\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable my_raylib_game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_raylib_game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

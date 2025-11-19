@@ -233,6 +233,54 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+sources/SceneManger.obj: sources/SceneManger.cpp.obj
+.PHONY : sources/SceneManger.obj
+
+# target to build an object file
+sources/SceneManger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj
+.PHONY : sources/SceneManger.cpp.obj
+
+sources/SceneManger.i: sources/SceneManger.cpp.i
+.PHONY : sources/SceneManger.i
+
+# target to preprocess a source file
+sources/SceneManger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.i
+.PHONY : sources/SceneManger.cpp.i
+
+sources/SceneManger.s: sources/SceneManger.cpp.s
+.PHONY : sources/SceneManger.s
+
+# target to generate assembly for a file
+sources/SceneManger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.s
+.PHONY : sources/SceneManger.cpp.s
+
+sources/WallManger.obj: sources/WallManger.cpp.obj
+.PHONY : sources/WallManger.obj
+
+# target to build an object file
+sources/WallManger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj
+.PHONY : sources/WallManger.cpp.obj
+
+sources/WallManger.i: sources/WallManger.cpp.i
+.PHONY : sources/WallManger.i
+
+# target to preprocess a source file
+sources/WallManger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.i
+.PHONY : sources/WallManger.cpp.i
+
+sources/WallManger.s: sources/WallManger.cpp.s
+.PHONY : sources/WallManger.s
+
+# target to generate assembly for a file
+sources/WallManger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.s
+.PHONY : sources/WallManger.cpp.s
+
 sources/main.obj: sources/main.cpp.obj
 .PHONY : sources/main.obj
 
@@ -257,6 +305,30 @@ sources/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/main.cpp.s
 .PHONY : sources/main.cpp.s
 
+sources/martin.obj: sources/martin.cpp.obj
+.PHONY : sources/martin.obj
+
+# target to build an object file
+sources/martin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj
+.PHONY : sources/martin.cpp.obj
+
+sources/martin.i: sources/martin.cpp.i
+.PHONY : sources/martin.i
+
+# target to preprocess a source file
+sources/martin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/martin.cpp.i
+.PHONY : sources/martin.cpp.i
+
+sources/martin.s: sources/martin.cpp.s
+.PHONY : sources/martin.s
+
+# target to generate assembly for a file
+sources/martin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/martin.cpp.s
+.PHONY : sources/martin.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -275,9 +347,18 @@ help:
 	@echo ... glfw
 	@echo ... my_raylib_game
 	@echo ... raylib
+	@echo ... sources/SceneManger.obj
+	@echo ... sources/SceneManger.i
+	@echo ... sources/SceneManger.s
+	@echo ... sources/WallManger.obj
+	@echo ... sources/WallManger.i
+	@echo ... sources/WallManger.s
 	@echo ... sources/main.obj
 	@echo ... sources/main.i
 	@echo ... sources/main.s
+	@echo ... sources/martin.obj
+	@echo ... sources/martin.i
+	@echo ... sources/martin.s
 .PHONY : help
 
 

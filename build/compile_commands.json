@@ -1,9 +1,27 @@
 [
 {
   "directory": "C:/cppRaylibTest-main/build",
+  "command": "C:\\Users\\gustav.jonssonjuho\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe -DASSETS_PATH=\\\"C:/cppRaylibTest-main/cppRaylibTest-main/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/my_raylib_game.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_raylib_game.dir\\sources\\SceneManger.cpp.obj -c C:\\cppRaylibTest-main\\cppRaylibTest-main\\sources\\SceneManger.cpp",
+  "file": "C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.cpp",
+  "output": "CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj"
+},
+{
+  "directory": "C:/cppRaylibTest-main/build",
+  "command": "C:\\Users\\gustav.jonssonjuho\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe -DASSETS_PATH=\\\"C:/cppRaylibTest-main/cppRaylibTest-main/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/my_raylib_game.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_raylib_game.dir\\sources\\WallManger.cpp.obj -c C:\\cppRaylibTest-main\\cppRaylibTest-main\\sources\\WallManger.cpp",
+  "file": "C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.cpp",
+  "output": "CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj"
+},
+{
+  "directory": "C:/cppRaylibTest-main/build",
   "command": "C:\\Users\\gustav.jonssonjuho\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe -DASSETS_PATH=\\\"C:/cppRaylibTest-main/cppRaylibTest-main/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/my_raylib_game.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_raylib_game.dir\\sources\\main.cpp.obj -c C:\\cppRaylibTest-main\\cppRaylibTest-main\\sources\\main.cpp",
   "file": "C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp",
   "output": "CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj"
+},
+{
+  "directory": "C:/cppRaylibTest-main/build",
+  "command": "C:\\Users\\gustav.jonssonjuho\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\clang++.exe -DASSETS_PATH=\\\"C:/cppRaylibTest-main/cppRaylibTest-main/assets/\\\" -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/my_raylib_game.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\my_raylib_game.dir\\sources\\martin.cpp.obj -c C:\\cppRaylibTest-main\\cppRaylibTest-main\\sources\\martin.cpp",
+  "file": "C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.cpp",
+  "output": "CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj"
 },
 {
   "directory": "C:/cppRaylibTest-main/build/_deps/raylib-build/raylib",
