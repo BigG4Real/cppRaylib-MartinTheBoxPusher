@@ -233,6 +233,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings.dir\build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+sources/CordsHandler.obj: sources/CordsHandler.cpp.obj
+.PHONY : sources/CordsHandler.obj
+
+# target to build an object file
+sources/CordsHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/CordsHandler.cpp.obj
+.PHONY : sources/CordsHandler.cpp.obj
+
+sources/CordsHandler.i: sources/CordsHandler.cpp.i
+.PHONY : sources/CordsHandler.i
+
+# target to preprocess a source file
+sources/CordsHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/CordsHandler.cpp.i
+.PHONY : sources/CordsHandler.cpp.i
+
+sources/CordsHandler.s: sources/CordsHandler.cpp.s
+.PHONY : sources/CordsHandler.s
+
+# target to generate assembly for a file
+sources/CordsHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/CordsHandler.cpp.s
+.PHONY : sources/CordsHandler.cpp.s
+
 sources/SceneManger.obj: sources/SceneManger.cpp.obj
 .PHONY : sources/SceneManger.obj
 
@@ -280,6 +304,30 @@ sources/WallManger.s: sources/WallManger.cpp.s
 sources/WallManger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.s
 .PHONY : sources/WallManger.cpp.s
+
+sources/WinPoint.obj: sources/WinPoint.cpp.obj
+.PHONY : sources/WinPoint.obj
+
+# target to build an object file
+sources/WinPoint.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WinPoint.cpp.obj
+.PHONY : sources/WinPoint.cpp.obj
+
+sources/WinPoint.i: sources/WinPoint.cpp.i
+.PHONY : sources/WinPoint.i
+
+# target to preprocess a source file
+sources/WinPoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WinPoint.cpp.i
+.PHONY : sources/WinPoint.cpp.i
+
+sources/WinPoint.s: sources/WinPoint.cpp.s
+.PHONY : sources/WinPoint.s
+
+# target to generate assembly for a file
+sources/WinPoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_raylib_game.dir\build.make CMakeFiles/my_raylib_game.dir/sources/WinPoint.cpp.s
+.PHONY : sources/WinPoint.cpp.s
 
 sources/main.obj: sources/main.cpp.obj
 .PHONY : sources/main.obj
@@ -347,12 +395,18 @@ help:
 	@echo ... glfw
 	@echo ... my_raylib_game
 	@echo ... raylib
+	@echo ... sources/CordsHandler.obj
+	@echo ... sources/CordsHandler.i
+	@echo ... sources/CordsHandler.s
 	@echo ... sources/SceneManger.obj
 	@echo ... sources/SceneManger.i
 	@echo ... sources/SceneManger.s
 	@echo ... sources/WallManger.obj
 	@echo ... sources/WallManger.i
 	@echo ... sources/WallManger.s
+	@echo ... sources/WinPoint.obj
+	@echo ... sources/WinPoint.i
+	@echo ... sources/WinPoint.s
 	@echo ... sources/main.obj
 	@echo ... sources/main.i
 	@echo ... sources/main.s

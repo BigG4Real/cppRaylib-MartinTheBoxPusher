@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/cppRaylibTest-main/cppRaylibTest-main/sources/CordsHandler.cpp" "CMakeFiles/my_raylib_game.dir/sources/CordsHandler.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/CordsHandler.cpp.obj.d"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.cpp" "CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/SceneManger.cpp.obj.d"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.cpp" "CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/WallManger.cpp.obj.d"
+  "C:/cppRaylibTest-main/cppRaylibTest-main/sources/WinPoint.cpp" "CMakeFiles/my_raylib_game.dir/sources/WinPoint.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/WinPoint.cpp.obj.d"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp" "CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/main.cpp.obj.d"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.cpp" "CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj" "gcc" "CMakeFiles/my_raylib_game.dir/sources/martin.cpp.obj.d"
   )

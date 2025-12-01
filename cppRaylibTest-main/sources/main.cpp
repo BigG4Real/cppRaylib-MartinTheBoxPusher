@@ -1,8 +1,10 @@
+//Tar in andra scripts
 #include "SceneManger.h"
 #include "WallManger.h"
 #include "martin.h"
-#include "main.h"
+#include "CordsHandler.h"
 
+//Olika biblotek
 #include <iostream>
 #include <vector>
 #include <cstring>
@@ -10,94 +12,53 @@
 #include <string>
 #include <list>
 
+//Raylib sigman
 #include "raylib.h"
 #include <raymath.h>
 
 using namespace std;
 
-const int screenWidth = 1920;
-const int screenHeight = 1080;
+const int screenWidth = GetMonitorWidth(0);
+const int screenHeight = GetMonitorHeight(0);
 
-
-Vector2 Main::HandlePlayerInput()
-{
-  Vector2 dir;
-  dir.x = 0;
-  dir.y = 0;
-  if (IsKeyDown(KEY_RIGHT))
-  {
-    dir.x += 1;
-  }
-  if (IsKeyDown(KEY_LEFT))
-  {
-    dir.x -= 1;
-  }
-  if (IsKeyDown(KEY_DOWN))
-  {
-    dir.y += 1;
-  }
-  if (IsKeyDown(KEY_UP))
-  {
-    dir.y -= 1;
-  }
-  dir = Vector2Normalize(dir);
-  return dir;
-}
-
-WallManger Main::makeWall(float posX, float posY, float lenghtX, float lenghtY, Color Color, bool push)
-{
-  WallManger makeANewWall;
-  makeANewWall.isUsed = true;
-  makeANewWall.pos.x = posX;
-  makeANewWall.pos.y = posY;
-  makeANewWall.lenght.x = lenghtX;
-  makeANewWall.lenght.y = lenghtY;
-  makeANewWall.color = Color;
-  makeANewWall.isPushable = push;
-  
-  return makeANewWall;
-}
-
-int Main::GetAUnusedWall(int sizeOfWall){
-  for (int i = 0; i < sizeOfWall; i++)
-  {
-    if(!Main::wall[i].isUsed){
-      return i;
-    }
-  }
-  return 0;
-}
+int widthOfMap = 19;
+int heightOfMap = 11;
 
 int main()
 {
-  InitWindow(screenWidth, screenHeight, "Martin Killer");
+  InitWindow(screenWidth, screenHeight, "Martin The Box Pusher");
 
-  Martin martin;
-  SceneManger manager;
-  martin.pos.x += screenWidth / 2 - (float)martin.texture.width / 2;
-  martin.pos.y += screenHeight / 2 - (float)martin.texture.height / 2;
+  // Sigman pekar till rätt ställe...
+  Martin* martin = new Martin;
+  Cords* cords = new Cords;
+  Level* level = new Level;
 
-  int sizeOfWall = sizeof(Main::wall) / sizeof(Main::wall[0]);
-  
-  manager.MakeRoom(0, sizeOfWall, screenWidth, screenHeight);
+  martin->cords = cords;
 
-  SetTargetFPS(60);
+  //Gör cordinat fält
+  cords->MakeVectorNet(19,11);
+  level->MapOne(cords);
 
+  SetTargetFPS(120);
+
+  //Game loop
   while (!WindowShouldClose())
-  {
+  {    
     BeginDrawing();
     ClearBackground(BLACK);
 
-    martin.UpdateMartinPos();
-    martin.DrawMartin();
+    #pragma region DrawInCords
+    cords->DrawEvrethingInCords();
+    #pragma endregion
 
-    for (int i = 0; i < sizeOfWall; i++)
-    {
-      if(Main::wall[i].isUsed){
-        Main::wall[i].DrawWall();
-      }
-    }
+    #pragma region Martin das sigma
+    martin->UpdateMartinPos();
+    #pragma endregion
 
+    #pragma region Win Points
+    level->DrawWin(cords);
+    #pragma endregion
+    
     EndDrawing();
   }
   CloseWindow();

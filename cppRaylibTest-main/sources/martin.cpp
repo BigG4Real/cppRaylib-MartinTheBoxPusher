@@ -1,104 +1,87 @@
 #include "SceneManger.h"
 #include <iostream>
 #include "martin.h"
-#include "main.h"
+#include "CordsHandler.h"
 using namespace std;
 
-
-void Martin::UpdateMartinPos()
+//Vilket håll man vill gå ut
+Vector2 Martin::HandlePlayerInput()
 {
-  Vector2 dir = Main::HandlePlayerInput();
-  float speed = Martin::speed;
-
-  Martin::pos.x += dir.x * speed;
-  Martin::CanPush(dir);
-  if (Martin::DoesCollide()){
-    Martin::pos.x -= dir.x * speed;
+  Vector2 dir;
+  dir.x = 0;
+  dir.y = 0;
+  if (IsKeyPressed(KEY_RIGHT))
+  {
+    dir.x += 1;
   }
-  
-  Martin::pos.y += dir.y * speed;
-  Martin::CanPush(dir);  
-  if(Martin::DoesCollide()){
-    Martin::pos.y -= dir.y * speed;
+  if (IsKeyPressed(KEY_LEFT))
+  {
+    dir.x -= 1;
   }
-  
+  if (IsKeyPressed(KEY_DOWN))
+  {
+    dir.y += 1;
+  }
+  if (IsKeyPressed(KEY_UP))
+  {
+    dir.y -= 1;
+  }
+  return dir;
 }
 
-bool Martin::DoesCollide()
+//Lägg Martin på en ny pos i CordsHandler
+void Martin::UpdateMartinPos()
 {
-  // martin hitbox
-  Rectangle martinBox = { Martin::pos.x + 50, Martin::pos.y + 50, 100, 100};
+  MoveMartin(GetMartinPos(), HandlePlayerInput());
+}
 
-  DrawRectangle(Martin::pos.x + 50, Martin::pos.y + 50, 100, 100, RED);
-  
-  int size = sizeof(Main::wall) / sizeof(Main::wall[0]);
-  
-  for (int i = 0; i < size; i++)
+void Martin::MoveMartin(Vector2 playerPos, Vector2 moveDir){
+    int martin = GetMartinPosIndex();
+    for(int i = 0; i < (sizeof(cords->AllCords) / sizeof(cords->AllCords[0])); i++){
+
+    if(cords->AllCords[i].pos == playerPos + moveDir){
+      if(cords->AllCords[i].data == DataType(box) && !didBoxCollide(cords->AllCords[i].pos, moveDir) || cords->AllCords[i].data == DataType(wall)){
+        //beta gå ut
+        return;
+      }
+      //sigman klarade sig
+      cords->AllCords[martin].data = DataType(nothing);
+      cords->AllCords[i].data = DataType(player);
+    }
+  }
+}
+
+bool Martin::didBoxCollide(Vector2 boxPos, Vector2 martinDir){
+  Vector2 newBoxPos = boxPos + martinDir;
+  for(int i = 0; i < (sizeof(cords->AllCords) / sizeof(cords->AllCords[0])); i++)
   {
-    if(!Main::wall[i].isUsed || Main::wall[i].isPushable){continue;}
-
-    // walls sides
-    Rectangle wallBox = { Main::wall[i].pos.x, Main::wall[i].pos.y, Main::wall[i].lenght.x, Main::wall[i].lenght.y};
-    
-    // sigma boy check
-    bool collision = CheckCollisionRecs(martinBox, wallBox);
-
-    DrawRectangle(Main::wall[i].pos.x, Main::wall[i].pos.y, Main::wall[i].lenght.x, Main::wall[i].lenght.y, RED);
-
-    if(collision){
+    if(cords->AllCords[i].pos == newBoxPos && cords->AllCords[i].data == DataType(nothing))
+    {
+      cords->AllCords[i].data = DataType(box);
       return true;
     }
-
-  }
-  
+  }  
   return false;
 }
 
-    
-void Martin::CanPush(Vector2 dir)
-{
-  float speed = Martin::speed;
-  // martin hitbox
-  Rectangle martinBox = { Martin::pos.x + 50, Martin::pos.y + 50, 100, 100};
-  DrawRectangle(Martin::pos.x + 50, Martin::pos.y + 50, 100, 100, RED);
-  
-  int size = sizeof(Main::wall) / sizeof(Main::wall[0]);
-  
-  for (int i = 0; i < size; i++)
-  {
-    if(!Main::wall[i].isUsed || !Main::wall[i].isPushable){continue;}
-    // walls sides
-    Rectangle wallBox = { Main::wall[i].pos.x, Main::wall[i].pos.y, Main::wall[i].lenght.x, Main::wall[i].lenght.y};
-    
-    // sigma boy checks
-    bool collision = CheckCollisionRecs(martinBox, wallBox);
-    DrawRectangle(Main::wall[i].pos.x, Main::wall[i].pos.y, Main::wall[i].lenght.x, Main::wall[i].lenght.y, RED);
-    if(collision){
-      Main::wall[i].pos.x += dir.x * speed;
-      Main::wall[i].pos.y += dir.y * speed;
-      Rectangle wallBoxNewLoc = { Main::wall[i].pos.x, Main::wall[i].pos.y, Main::wall[i].lenght.x, Main::wall[i].lenght.y};
-      for (int j = 0; j < size; j++)
-      {
-        if(!Main::wall[i].isUsed || i == j){continue;}
-        
-        Rectangle newWallBox = { Main::wall[j].pos.x, Main::wall[j].pos.y, Main::wall[j].lenght.x, Main::wall[j].lenght.y};
-        bool newCollision = CheckCollisionRecs(newWallBox, wallBoxNewLoc);
-        if(newCollision){  
-          Main::wall[i].pos.x -= dir.x * speed;
-          Main::wall[i].pos.y -= dir.y * speed;
-          Martin::pos.x -= dir.x * speed * 2;
-          Martin::pos.y -= dir.y * speed * 2;
-        }
-      }
+Vector2 Martin::GetMartinPos(){
+  for(int i = 0; i < (sizeof(cords->AllCords) / sizeof(cords->AllCords[0])); i++){
+
+    if(cords->AllCords[i].data == DataType(player)){
+      return cords->AllCords[i].pos;
     }
   }
-}
-
-
-void Martin::DrawMartin(){
-    Vector2 newpos{
-      Martin::pos.x + 50,
-      Martin::pos.y + 50
+  Vector2 seafty{
+    0,0
   };
-  DrawTextureV(texture, pos, WHITE);
+  return seafty;
+}
+int Martin::GetMartinPosIndex(){
+  for(int i = 0; i < (sizeof(cords->AllCords) / sizeof(cords->AllCords[0])); i++){
+
+    if(cords->AllCords[i].data == DataType(player)){
+      return i;
+    }
+  }
+  return 0;
 }

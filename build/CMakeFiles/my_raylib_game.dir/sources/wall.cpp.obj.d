@@ -1,6 +1,6 @@
-CMakeFiles/my_raylib_game.dir/sources/wall.cpp.obj: \
-  C:/cppRaylibTest-main/cppRaylibTest-main/sources/wall.cpp \
-  C:/cppRaylibTest-main/cppRaylibTest-main/sources/wall.h \
+CMakeFiles/my_raylib_game.dir/sources/Wall.cpp.obj: \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/Wall.cpp \
+  C:/cppRaylibTest-main/cppRaylibTest-main/sources/Wall.h \
   C:/cppRaylibTest-main/build/_deps/raylib-src/src/raylib.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/clang/19/include/stdarg.h \
   C:/Users/gustav.jonssonjuho/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT.LLVM_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include/stdarg.h \

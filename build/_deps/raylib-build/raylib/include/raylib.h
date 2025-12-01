@@ -179,6 +179,7 @@
 #define ORANGE     CLITERAL(Color){ 255, 161, 0, 255 }     // Orange
 #define PINK       CLITERAL(Color){ 255, 109, 194, 255 }   // Pink
 #define RED        CLITERAL(Color){ 230, 41, 55, 255 }     // Red
+#define WIN        CLITERAL(Color){ 230, 41, 55, 50 }     // Kolla jag gjorde en själv :o
 #define MAROON     CLITERAL(Color){ 190, 33, 55, 255 }     // Maroon
 #define GREEN      CLITERAL(Color){ 0, 228, 48, 255 }      // Green
 #define LIME       CLITERAL(Color){ 0, 158, 47, 255 }      // Lime

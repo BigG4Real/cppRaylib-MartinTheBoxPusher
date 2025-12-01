@@ -4,8 +4,10 @@
 # PROJECT_SOURCES at CMakeLists.txt:23 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/cppRaylibTest-main/cppRaylibTest-main/sources/*.cpp")
 set(OLD_GLOB
+  "C:/cppRaylibTest-main/cppRaylibTest-main/sources/CordsHandler.cpp"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/SceneManger.cpp"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/WallManger.cpp"
+  "C:/cppRaylibTest-main/cppRaylibTest-main/sources/WinPoint.cpp"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/main.cpp"
   "C:/cppRaylibTest-main/cppRaylibTest-main/sources/martin.cpp"
   )
