@@ -42,11 +42,16 @@ void Martin::MoveMartin(Vector2 playerPos, Vector2 moveDir){
     if(cords->AllCords[i].pos == playerPos + moveDir){
       if(cords->AllCords[i].data == DataType(box) && !didBoxCollide(cords->AllCords[i].pos, moveDir) || cords->AllCords[i].data == DataType(wall)){
         //beta gå ut
+        Sound sound = LoadSound(ASSETS_PATH"walkInWall.wav");  
+        PlaySound(sound);
         return;
       }
       //sigman klarade sig
       cords->AllCords[martin].data = DataType(nothing);
       cords->AllCords[i].data = DataType(player);
+      if(moveDir.x != 0 || moveDir.y != 0){
+      Sound sound = LoadSound(ASSETS_PATH"walk.wav");
+      PlaySound(sound);}
     }
   }
 }

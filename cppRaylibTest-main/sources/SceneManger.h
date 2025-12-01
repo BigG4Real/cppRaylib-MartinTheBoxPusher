@@ -11,6 +11,7 @@ class Level{
         void Generate(int Current, Cords* cordsSystem);
 
         void MapOne(Cords* cordsSystem);
+        void MapTwo(Cords* cordsSystem);
 
         void CreatSector(Cords* cordsSystem, int startX, int endX, int startY, int endY, DataType dataType);
 
@@ -19,4 +20,6 @@ class Level{
 
         void DrawWin(Cords* cordsSystem);
         void MakeWinPoint(int posX, int posY);
+
+        bool CheckIfWin(Cords* cordsSystem);
 };

@@ -6,7 +6,6 @@ using namespace std;
 
 // Gör ett net där man får lägga in width och height samt en enum med value ID
 void Cords::MakeVectorNet(int width, int height){
-
     Width = width;
     Height = height;
 
@@ -27,6 +26,25 @@ void Cords::MakeVectorNet(int width, int height){
             onCurrentChange++;
         }
     }
+}
+
+void Cords::ResetMap(){
+    
+    Vector2 vectorZero{
+        0,0
+    };
+    //tar bort allt först
+    for (int i = 0; (sizeof(AllCords) / sizeof(AllCords[0])); i++)
+    {
+        if(AllCords[i].IsInUse)
+        {
+            AllCords[i].IsInUse = false;
+            AllCords[i].pos = vectorZero;
+            AllCords[i].data = DataType(nothing);
+        }
+        else{ return; }
+    }
+
 }
 
 void Cords::DrawEvrethingInCords(){

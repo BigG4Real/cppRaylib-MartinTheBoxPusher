@@ -31,4 +31,6 @@ class Cords{
         getCords AllCords[2000];
 
         void DrawEvrethingInCords();
+
+        void ResetMap();
 };

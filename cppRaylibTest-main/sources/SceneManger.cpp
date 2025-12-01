@@ -7,11 +7,20 @@ using namespace std;
 
 void Level::Generate(int Current, Cords* cordsSystem)
 {
+    for(int i = 0; i < (sizeof(winPoints) / sizeof(winPoints[0])); i++)
+    {
+        winPoints[i].isUsed = false;
+    }
+
     switch (Current)
     {
-    case 0:
-        MapOne(cordsSystem);
-        break;
+        case 1:
+            MapOne(cordsSystem);
+            break;
+        
+        case 2:
+            MapTwo(cordsSystem);
+            break;
     
     default:
         break;
@@ -19,7 +28,11 @@ void Level::Generate(int Current, Cords* cordsSystem)
 }
 
 void Level::MapOne(Cords* cordsSystem){
-    
+    //Tar bort allt ifall man laddar ny bana
+    CreatSector(cordsSystem, 0, 999, 0, 999, DataType(nothing));
+
+    cordsSystem->MakeVectorNet(19,11);
+
     //gör allt till väggar
     CreatSector(cordsSystem, 0, 19, 0, 11, DataType(wall));
 
@@ -49,7 +62,74 @@ void Level::MapOne(Cords* cordsSystem){
     MakeWinPoint(17, 6);
 
     // gör boxes
-    CreatSector(cordsSystem, 8, 8, 8, 8, DataType(box));
+    CreatSector(cordsSystem, 7, 7, 3, 4, DataType(box));
+    CreatSector(cordsSystem, 5, 5, 4, 4, DataType(box));
+    CreatSector(cordsSystem, 5, 5, 2, 2, DataType(box));
+    CreatSector(cordsSystem, 5, 5, 7, 7, DataType(box));
+    CreatSector(cordsSystem, 2, 2, 7, 7, DataType(box));
+
+}
+
+
+void Level::MapTwo(Cords* cordsSystem){
+    //Tar bort allt ifall man laddar ny bana
+    CreatSector(cordsSystem, 0, 999, 0, 999, DataType(nothing));
+
+    cordsSystem->MakeVectorNet(14,10);
+    
+    //gör allt till väggar
+    CreatSector(cordsSystem, 0, 14, 0, 10, DataType(wall));
+
+    //gör alla hol som spelaren kan gå i
+    CreatSector(cordsSystem, 1, 12, 1, 8, DataType(nothing));
+
+    //gör väggar
+    CreatSector(cordsSystem, 0, 2, 6, 10, DataType(wall));
+    CreatSector(cordsSystem, 0, 5, 6, 6, DataType(wall));
+    CreatSector(cordsSystem, 5, 5, 5, 5, DataType(wall));
+    CreatSector(cordsSystem, 5, 5, 0, 3, DataType(wall));
+
+    CreatSector(cordsSystem, 7, 8, 3, 3, DataType(wall));
+    CreatSector(cordsSystem, 9, 10, 3, 4, DataType(wall));
+
+    CreatSector(cordsSystem, 7, 7, 5, 6, DataType(wall));
+    CreatSector(cordsSystem, 8, 8, 6, 6, DataType(wall));
+    
+    CreatSector(cordsSystem, 7, 7, 8, 8, DataType(wall));
+
+    CreatSector(cordsSystem, 12, 12, 5, 5, DataType(wall));
+
+
+    //gör spelaren
+    CreatSector(cordsSystem, 7, 7, 4, 4, DataType(player));
+
+    //gör win points
+    MakeWinPoint(1, 1);
+    MakeWinPoint(1, 2);
+    MakeWinPoint(1, 3);
+    MakeWinPoint(1, 4);
+    MakeWinPoint(1, 5);
+
+    MakeWinPoint(2, 1);
+    MakeWinPoint(2, 2);
+    MakeWinPoint(2, 3);
+    MakeWinPoint(2, 4);
+    MakeWinPoint(2, 5);
+
+    // gör boxes
+    CreatSector(cordsSystem, 7, 7, 2, 2, DataType(box));
+    CreatSector(cordsSystem, 10, 10, 2, 2, DataType(box));
+    CreatSector(cordsSystem, 6, 6, 3, 3, DataType(box));
+
+    CreatSector(cordsSystem, 10, 10, 5, 5, DataType(box));
+
+    CreatSector(cordsSystem, 9, 9, 6, 7, DataType(box));
+    CreatSector(cordsSystem, 11, 11, 6, 7, DataType(box));
+
+    CreatSector(cordsSystem, 7, 7, 7, 7, DataType(box));
+
+    CreatSector(cordsSystem, 4, 4, 7, 7, DataType(box));
+
 
 }
 
@@ -92,4 +172,17 @@ void Level::DrawWin(Cords* cordsSystem){
         DrawRectangle(posOfTheRect.x -(cordsSystem->SizeOfEvreything * 0.1f), posOfTheRect.y-(cordsSystem->SizeOfEvreything * 0.1f), cordsSystem->SizeOfEvreything+(cordsSystem->SizeOfEvreything * 0.2f), cordsSystem->SizeOfEvreything+(cordsSystem->SizeOfEvreything * 0.2f), WIN); 
         
     }
+}
+
+bool Level::CheckIfWin(Cords* cordsSystem){
+    
+    for(int i = 0; i < (sizeof(winPoints) / sizeof(winPoints[0])); i++){
+        for(int j = 0; j < (sizeof(cordsSystem->AllCords) / sizeof(cordsSystem->AllCords[0])); j++)
+        {
+            if(winPoints[i].isUsed && cordsSystem->AllCords[j].pos == winPoints[i].pos && cordsSystem->AllCords[j].data != DataType(box)){
+                return false;
+            }
+        }
+    }
+    return true;
 }
