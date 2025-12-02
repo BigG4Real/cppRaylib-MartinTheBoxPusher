@@ -10,6 +10,8 @@ class Martin{
     
     Texture2D texture = LoadTexture(ASSETS_PATH"MartinLightSkinStare.jpg");
 
+    int amountOfSteps;
+
     //Martins metoder :)
     void UpdateMartinPos();
     Vector2 HandlePlayerInput();

@@ -44,14 +44,18 @@ void Martin::MoveMartin(Vector2 playerPos, Vector2 moveDir){
         //beta gå ut
         Sound sound = LoadSound(ASSETS_PATH"walkInWall.wav");  
         PlaySound(sound);
+        amountOfSteps++;
         return;
       }
       //sigman klarade sig
       cords->AllCords[martin].data = DataType(nothing);
       cords->AllCords[i].data = DataType(player);
-      if(moveDir.x != 0 || moveDir.y != 0){
-      Sound sound = LoadSound(ASSETS_PATH"walk.wav");
-      PlaySound(sound);}
+      if(moveDir.x != 0 || moveDir.y != 0)
+      {
+        Sound sound = LoadSound(ASSETS_PATH"walk.wav");
+        PlaySound(sound);
+        amountOfSteps++;
+      }
     }
   }
 }

@@ -182,10 +182,13 @@
 #define WIN        CLITERAL(Color){ 230, 41, 55, 50 }     // Kolla jag gjorde en själv :o
 #define MAROON     CLITERAL(Color){ 190, 33, 55, 255 }     // Maroon
 #define GREEN      CLITERAL(Color){ 0, 228, 48, 255 }      // Green
+#define BOX      CLITERAL(Color){ 211, 95, 4, 150 }      // Green
+#define SIGMAGREEN      CLITERAL(Color){ 0, 228, 48, 150 }      // Green
 #define LIME       CLITERAL(Color){ 0, 158, 47, 255 }      // Lime
 #define DARKGREEN  CLITERAL(Color){ 0, 117, 44, 255 }      // Dark Green
 #define SKYBLUE    CLITERAL(Color){ 102, 191, 255, 255 }   // Sky Blue
 #define BLUE       CLITERAL(Color){ 0, 121, 241, 255 }     // Blue
+#define SIGMABLUE       CLITERAL(Color){ 0, 121, 241, 150 }     // Blue
 #define DARKBLUE   CLITERAL(Color){ 0, 82, 172, 255 }      // Dark Blue
 #define PURPLE     CLITERAL(Color){ 200, 122, 255, 255 }   // Purple
 #define VIOLET     CLITERAL(Color){ 135, 60, 190, 255 }    // Violet
@@ -194,6 +197,7 @@
 #define BROWN      CLITERAL(Color){ 127, 106, 79, 255 }    // Brown
 #define DARKBROWN  CLITERAL(Color){ 76, 63, 47, 255 }      // Dark Brown
 
+#define SIXSEVEN      CLITERAL(Color){ 167, 167, 167, 255 }   // White
 #define WHITE      CLITERAL(Color){ 255, 255, 255, 255 }   // White
 #define BLACK      CLITERAL(Color){ 0, 0, 0, 255 }         // Black
 #define BLANK      CLITERAL(Color){ 0, 0, 0, 0 }           // Blank (Transparent)
