@@ -10,19 +10,19 @@ Vector2 Martin::HandlePlayerInput()
   Vector2 dir;
   dir.x = 0;
   dir.y = 0;
-  if (IsKeyPressed(KEY_RIGHT))
+  if (IsKeyPressed(KEY_RIGHT) || IsKeyPressed(KEY_D))
   {
     dir.x += 1;
   }
-  if (IsKeyPressed(KEY_LEFT))
+  if (IsKeyPressed(KEY_LEFT) || IsKeyPressed(KEY_A))
   {
     dir.x -= 1;
   }
-  if (IsKeyPressed(KEY_DOWN))
+  if (IsKeyPressed(KEY_DOWN) || IsKeyPressed(KEY_S))
   {
     dir.y += 1;
   }
-  if (IsKeyPressed(KEY_UP))
+  if (IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_W))
   {
     dir.y -= 1;
   }

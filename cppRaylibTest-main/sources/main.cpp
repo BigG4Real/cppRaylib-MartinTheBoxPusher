@@ -38,7 +38,7 @@ void gameLocic(Cords* cords, Martin* martin, Level* level){
 
   #pragma region Win Points
   level->DrawWin(cords);
-  if(level->CheckIfWin(cords) || IsKeyPressed(KEY_W)){
+  if(level->CheckIfWin(cords) || IsKeyPressed(KEY_R)){
     currentMap++;
     cords->ResetMap();
     level->Generate(currentMap, cords);
@@ -97,6 +97,13 @@ int main()
       DrawText(TextFormat("Amount of steps: %03i", martin->amountOfSteps), 50, 50, Size, SIXSEVEN);
       DrawText(TextFormat("Time: %04i", (CurrentTime / 60)), 50, 50 + Size, Size, SIXSEVEN);
       DrawText(TextFormat("Score: %03i", score), 50, 50 + (Size * 2), Size, SIXSEVEN);
+      DrawText("Press space to restart!!!", 50, 100 + (Size * 3), Size, SIXSEVEN);
+      if(IsKeyPressed(KEY_SPACE)){
+        currentMap = 1;
+        CurrentTime = 0;
+        martin->amountOfSteps = 0;
+        level->Generate(currentMap, cords);
+      }
     }
     else if(currentMap >= 3 || currentMap != 0){
       gameLocic(cords, martin, level);
